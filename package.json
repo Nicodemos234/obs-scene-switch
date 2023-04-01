@@ -1,0 +1,14 @@
+{
+  "name": "obsconnect",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "pkg index.js --targets node14-win-x64"
+  },
+  "dependencies": {
+    "obs-websocket-js": "^5.0.2",
+    "pkg": "^5.8.1"
+  }
+}
